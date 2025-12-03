@@ -44,7 +44,7 @@ img{
     height:800px;
 }
 .cover-home{
-    background-image: url(../images/cover-home-s.webp);
+    background-image: url(../images/images/cover-home-s.webp);
 }
 .about{
     max-width:736px;
@@ -107,7 +107,7 @@ img{
 /*　フッター
 ---------------------------------------*/
 .page-footer{
-    background-image: url(../images/footer-s.webp);
+    background-image: url(../images/images/footer-s.webp);
     background-size: cover;
     background-position: center;
     padding-top:12rem;
@@ -153,14 +153,14 @@ img{
     }
     /*HOME*/
     .cover-home{
-        background-image: url(../images/cover-home-l.webp);
+        background-image: url(../images/images/cover-home-l.webp);
     }
     .about{
         margin:4rem auto 0;
     }
     /*フッター*/
     .page-footer{
-        background-image: url(../images/cover-home-l.webp);
+        background-image: url(../images/images/footer-s.webp);
     }
     .info th {
         padding-left: 2.5rem;
