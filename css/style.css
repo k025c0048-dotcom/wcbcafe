@@ -38,11 +38,21 @@ img{
     margin-top: 2rem;
     line-height: 1.4;
 }
+/*ヘッダー
+------------------*/
 .cover {
     background-size:cover;
     background-position:center bottom;
     height:800px;
 }
+sup-cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 528px;
+    margin-bottom:4rem;
+}
+/*HOME
+------------------------*/
 .cover-home{
     background-image: url(../images/images/cover-home-s.webp);
 }
@@ -51,8 +61,13 @@ img{
     padding:0.15rem;
     margin:3rem auto 0;
 }
-.auto p {
+.about p {
     margin-bottom: 3rem;
+}
+/*cover-home
+-------------------*/
+cover-home {
+    background-image: url(../images/images/cover-news-l.webp);
 }
 .page-title{
     font-size: 3rem;
