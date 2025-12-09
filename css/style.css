@@ -58,16 +58,32 @@ sup-cover{
 }
 .about{
     max-width:736px;
-    padding:0.15rem;
-    margin:3rem auto 0;
+    padding:0 1.5rem;
+    margin:3rem auto 4rem;
 }
 .about p {
     margin-bottom: 3rem;
 }
-/*cover-home
+/*NEWS
 -------------------*/
-cover-home {
+.cover-news {
     background-image: url(../images/images/cover-news-l.webp);
+}
+/*記事部分*/
+.post{
+    margin-bottom: 3rem;
+}
+.post-title{
+    font-weight: normal;
+    margin-bottom: 1.25;
+}
+.post-info{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.post-date{
+    font-size: .875rem;
 }
 .page-title{
     font-size: 3rem;
