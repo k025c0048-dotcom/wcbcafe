@@ -32,11 +32,12 @@ img{
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
 }
-.page-title{
-    font-size: 4rem;
+
+.page-title,
+.heading-large,
+.heading-medium{
+    font-size: 3rem;
     text-align: center;
-    margin-top: 2rem;
-    line-height: 1.4;
 }
 /*ヘッダー
 ------------------*/
@@ -102,6 +103,14 @@ img{
 .post-date{
     font-size: .875rem;
 }
+.post-thumbnail{
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+}
+.post p {
+    margin-bottom: 1.5rem;
+    line-height: 2;
+}
 .page-title{
     font-size: 3rem;
     text-align:center;
@@ -113,7 +122,23 @@ img{
     text-align:center;
     margin-bottom:1rem;
 }
-
+/*サイドバー*/
+.side-memu{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.side-menu li {
+    border-bottom: 1px solid #c9c2bc;
+}
+.side-menu a{
+    color: #432;
+    display: block;
+    padding: 1rem;
+}
+.side-menu a :hover {
+    color:#0bd ;
+}
 /*ボタン*/
 .btn{
     display:inline-block;
@@ -127,9 +152,6 @@ img{
 .btn:hover{
     background-color:#0090aa;
 }
-
-
-
 /*ヘッダー
 ------------------------------------*/
 .page-header{
@@ -189,6 +211,9 @@ img{
     .heading-large{
         font-size:4rem;
     }
+    .post-title{
+        font-size: 4rem;
+    }
     /*ヘッダー*/
     .page-header{
         display: flex;
@@ -198,6 +223,11 @@ img{
     .main-nav {
         font-size:2rem
     }
+    /* ヘッダーカバー画像*/
+    .sub-cover{
+        height: 400px;
+        margin-bottom: 6rem;
+    }
     /*HOME*/
     .cover-home{
         background-image: url(../images/cover-home-l.webp);
@@ -205,6 +235,22 @@ img{
     .about{
         margin:4rem auto 0;
     }
+    /*NEWS*/
+    .cover-news{
+        background-image: url(../images/cover-news-l.webp) ;
+    }
+    .news-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+    .post{
+        width: 70%;
+    }
+    .sidebar .heading-medium{
+        line-height: 1;
+        margin-bottom: 1rem;
+    }
+    
     /*フッター*/
     .page-footer{
         background-image: url(../images/footer-s.webp);
